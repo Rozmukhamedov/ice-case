@@ -1,0 +1,19 @@
+.footer {
+    background: #0B102D;
+    padding: 69px 0 80px 0;
+}
+
+.footer p {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+}
+
+.footer p a{
+    color: #FFFFFF;
+    text-decoration: none;
+}
