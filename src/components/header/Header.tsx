@@ -10,7 +10,7 @@ function Header() {
 
   return (
     <div className="header">
-      <Container size="xl">
+      <Container>
         <div className="header__flex">
           <div className="header__logo">
             <img src={Logo} alt="Ice Case" />

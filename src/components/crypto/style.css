@@ -1,0 +1,48 @@
+.crypto{
+    margin: 100px 0;
+}
+
+.crypto .crypto__box {
+    padding: 20px;
+    position: relative;
+}
+
+.crypto .crypto__box img {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: auto;
+    width: 450px;
+}
+
+.crypto .crypto__box h3 {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 40px;
+    color: #000000;
+    margin-bottom: 15px;
+}
+
+.crypto .crypto__box p {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 36px;
+    color: #000000;
+}
+
+.crypto .crypto__box button {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 36px;
+    border: none;
+    background: none;
+    color: #000000;
+    margin-top: 20px;
+    margin-right: 0;
+}

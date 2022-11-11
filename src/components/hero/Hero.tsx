@@ -8,7 +8,7 @@ function Hero() {
   const { t } = useTranslation();
   return (
     <div className="hero">
-      <Container size="xl">
+      <Container>
         <div className="hero__box">
           <Grid>
             <Grid.Col span={12} xl={7}>

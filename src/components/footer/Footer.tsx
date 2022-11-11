@@ -7,7 +7,7 @@ import Logo from "assets/img/logo-header.svg";
 function Footer() {
   return (
     <div className="footer">
-      <Container size="xl">
+      <Container>
         <Grid>
           <Grid.Col span={6} xl={3}>
             <div className="hero__box-image">

@@ -12,9 +12,9 @@
     height: 100%;
 }
 
-.header .header__flex .logo img{
-     width: 285px;
-     height: auto;
+.header .header__flex img {
+    width: 235px;
+    height: auto;
 }
 
 .header .header__flex .header__flex-end {
@@ -22,7 +22,7 @@
     flex-direction: row;
 }
 
-.header .header__flex .header__flex-end p{
+.header .header__flex .header__flex-end p {
     margin: 0 10px;
 }
 
@@ -30,7 +30,7 @@
     font-family: 'Segoe UI';
     font-style: normal;
     font-weight: 400;
-    font-size: 20px;
+    font-size: 18px;
     line-height: 24px;
     color: #000000;
     text-decoration: none;
