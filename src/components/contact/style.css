@@ -1,7 +1,7 @@
 .contact .cotact__texts h2 {
     font-style: normal;
     font-weight: 700;
-    font-size: 58px;
+    font-size: 45px;
     line-height: 77px;
     color: #000000;
     margin-bottom: 36px;
@@ -103,13 +103,15 @@
     color: #000000;
 }
 
-@media (max-width: 1200px) {
-    .contact .contact__form {
-        margin: 50px 100px 0 100px;
+@media (max-width: 992px) {
+    .contact .cotact__texts {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
-}
 
-@media (max-width: 768px) {
     .contact .contact__form {
         margin: 50px 100px 0 100px;
     }

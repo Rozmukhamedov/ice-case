@@ -8,9 +8,9 @@ function Contact() {
 
   return (
     <div className="contact">
-      <Container size="xl">
+      <Container>
         <Grid>
-          <Grid.Col span={12} xl={6}>
+          <Grid.Col span={12} md={5} lg={5} xl={5}>
             <div className="cotact__texts">
               <h2>{t("contact_1")}</h2>
               <h6>{t("contact_2")}</h6>
@@ -24,7 +24,7 @@ function Contact() {
               </p>
             </div>
           </Grid.Col>
-          <Grid.Col span={12} xl={6}>
+          <Grid.Col span={12} md={7} lg={7} xl={7}>
             <div className="contact__form">
               <h4>{t("contact")}</h4>
               <div className="contact__field">

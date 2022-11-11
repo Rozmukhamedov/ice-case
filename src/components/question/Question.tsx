@@ -7,7 +7,7 @@ function Question() {
   const { t } = useTranslation();
   return (
     <div className="question">
-      <Container size="xl">
+      <Container>
         <h3>{t("question")}</h3>
         <Accordion variant="separated" defaultValue="question_1">
           <Accordion.Item value="question_1">
