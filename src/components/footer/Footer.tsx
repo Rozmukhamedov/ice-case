@@ -1,5 +1,6 @@
-import React from "react";
 import "./style.css"
+import React from "react";
+import { t } from "i18next";
 import { Container, Grid } from "@mantine/core";
 import Logo from "assets/img/logo-header.svg";
 
@@ -15,7 +16,7 @@ function Footer() {
           </Grid.Col>
           <Grid.Col span={6} xl={3}>
             <p>
-              <a href="#">Политика конфиденциальности</a>
+              <a href="#">{t("Privacy Policy")}</a>
             </p>
             <p>© 2022 icecase.pro</p>
           </Grid.Col>

@@ -1,9 +1,13 @@
 import "./style.css";
-import { Container } from "@mantine/core";
 import React from "react";
+import { Container } from "@mantine/core";
 import Logo from "assets/img/logo.svg";
+import { useTranslation } from 'react-i18next';
+
 
 function Header() {
+  const { t } = useTranslation();
+
   return (
     <div className="header">
       <Container size="xl">
@@ -13,10 +17,10 @@ function Header() {
           </div>
           <div className="header__flex-end">
             <p>
-              <a href="#">О продукте</a>
+              <a href="#">{t("about_product")}</a>
             </p>
             <p>
-              <a href="#">Контакты</a>
+              <a href="#">{t("contacts")}</a>
             </p>
           </div>
         </div>

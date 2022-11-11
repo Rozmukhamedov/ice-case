@@ -1,21 +1,24 @@
-import { Container, Grid } from "@mantine/core";
-import React from "react";
 import "./style.css";
+import React from "react";
+import { Container, Grid } from "@mantine/core";
+import { useTranslation } from 'react-i18next';
 
 function Contact() {
+  const { t } = useTranslation();
+
   return (
     <div className="contact">
       <Container size="xl">
         <Grid>
           <Grid.Col span={12} xl={6}>
             <div className="cotact__texts">
-              <h2>Хотите приобрести IceCase?</h2>
-              <h6>Оставьте свои контактные данные и мы с вами свяжемся</h6>
+              <h2>{t("contact_1")}</h2>
+              <h6>{t("contact_2")}</h6>
               <p>e-mail</p>
               <p style={{marginBottom: "15px"}}>
                 <span>sales@icecase.pro</span>
               </p>
-              <p>телефон</p>
+              <p>{t("telephone")}</p>
               <p>
                 <span>+7 (495) 123-45-67</span>
               </p>
@@ -23,9 +26,9 @@ function Contact() {
           </Grid.Col>
           <Grid.Col span={12} xl={6}>
             <div className="contact__form">
-              <h4>Контактные данные</h4>
+              <h4>{t("contact")}</h4>
               <div className="contact__field">
-                <p>Имя</p>
+                <p>{t("name")}</p>
                 <input type="text" required/>
               </div>
               <div className="contact__field">
@@ -33,12 +36,12 @@ function Contact() {
                 <input type="email" required/>
               </div>
               <div className="contact__field">
-                <p>E-mail</p>
-                <input type="number" required/>
+                <p>{t("teplephone")}</p>
+                <input type="tel" required/>
               </div>
               <div className="contact__form-flex">
-                <button type="submit">Отправить</button>
-                <p>Нажимая на кнопку, вы даете согласие на обработку персональных данных </p>
+                <button type="submit">{t("send")}</button>
+                <p>{t("contact_info")}</p>
               </div>
             </div>
           </Grid.Col>
