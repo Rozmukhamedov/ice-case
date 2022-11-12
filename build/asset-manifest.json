@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.9e2fb48a.css",
+    "main.js": "/static/js/main.623b414d.js",
+    "static/js/787.28c67451.chunk.js": "/static/js/787.28c67451.chunk.js",
+    "static/media/cripto.png": "/static/media/cripto.ab6a7253c51645100eb4.png",
+    "static/media/mobile2.png": "/static/media/mobile2.1b9562e7643f60fb9273.png",
+    "static/media/mobile1.png": "/static/media/mobile1.bc9d41e79309790454a1.png",
+    "static/media/Segoe UI.ttf": "/static/media/Segoe UI.45472284dc36b2486ce2.ttf",
+    "static/media/box3.png": "/static/media/box3.5b9930798abe2eed9241.png",
+    "static/media/box1.png": "/static/media/box1.24a035ebab23010465a6.png",
+    "static/media/box2.png": "/static/media/box2.dce8bc131f1304f47057.png",
+    "static/media/logo.svg": "/static/media/logo.a338b59c837bdd5ffe15b84445522e5d.svg",
+    "static/media/logo-header.svg": "/static/media/logo-header.017ea42b87ac11cd80947d3a568ed01a.svg",
+    "index.html": "/index.html",
+    "static/media/dropdown.svg": "/static/media/dropdown.e76406b6aef609bd9a559d0ebabcf156.svg",
+    "main.9e2fb48a.css.map": "/static/css/main.9e2fb48a.css.map",
+    "main.623b414d.js.map": "/static/js/main.623b414d.js.map",
+    "787.28c67451.chunk.js.map": "/static/js/787.28c67451.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9e2fb48a.css",
+    "static/js/main.623b414d.js"
+  ]
+}
