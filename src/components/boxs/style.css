@@ -60,10 +60,16 @@
 }
 
 @media (max-width: 992px) {
+    .boxs h3{
+        max-width: 500px;
+        margin: 0 auto 30px;
+    }
     .boxs .boxs__card{
         width: 400px;
     }
 }
+
+
 
 @media (max-width: 576px) {
     .boxs .boxs__card{

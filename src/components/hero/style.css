@@ -64,3 +64,15 @@
     width: 500px;
     height: auto;
 }
+
+@media (max-width: 576px) {
+    .hero .hero__box h3 {
+        font-size: 48px;
+        line-height: 59px;
+    }
+
+    .hero .hero__box p {
+        font-size: 25.6577px;
+        line-height: 40px;
+    }
+}

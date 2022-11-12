@@ -67,3 +67,17 @@
     margin: 0;
     margin-bottom: 24px;
 }
+
+@media (max-width: 992px) {
+    .order .order__box .order__box-right img{
+        top: 93%;
+    }
+    
+    .order__show{
+        margin-top: 130px;
+    }
+
+    .order__show h2{
+        font-size: 40px;
+    }
+}

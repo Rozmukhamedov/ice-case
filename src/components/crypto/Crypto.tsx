@@ -9,14 +9,14 @@ function Crypto() {
       <Container>
         <div className="crypto__box">
           <Grid>
-            <Grid.Col span={12} xl={7}>
+            <Grid.Col span={12} md={7} lg={7} xl={7}>
               <h3>Сотни <br /> криптовалют</h3>
               <p>
               Аппаратный кошелек <br /> для вашего Биткойна, <br /> Эфира и сотен других <br /> криптовалют одновременно.
               </p>
-              <button type="button">Все в одном кошельке!</button>
+              <h6>Все в одном кошельке!</h6>
             </Grid.Col>
-            <Grid.Col span={12} xl={5}>
+            <Grid.Col span={12} md={5} lg={5} xl={5}>
               <div className="crypto__box-image">
                 <img src={Image} alt="mobile" />
               </div>

@@ -1,4 +1,4 @@
-.contact{
+.contact {
     padding: 50px 0;
 }
 
@@ -83,7 +83,9 @@
 .contact .contact__form .contact__form-flex {
     display: flex;
     flex-direction: row;
+    justify-content: center;
     margin-top: 30px;
+    align-items: center;
 }
 
 .contact .contact__form .contact__form-flex button {
@@ -118,5 +120,29 @@
 
     .contact .contact__form {
         margin: 50px 100px 0 100px;
+    }
+
+    .contact .contact__form .contact__form-flex button {
+        padding: 10px 0;
+        width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    .contact .contact__form {
+        padding: 35px 40px;
+        margin: 50px 0 0 0;
+    }
+}
+
+@media (max-width: 576px) {
+    .contact .contact__form h4{
+        line-height: 35px;
+        margin-bottom: 20px;
+    }
+    .contact .contact__form .contact__form-flex button {
+        font-size: 16px;
+        width: auto;
+        padding: 10px 5px;
     }
 }

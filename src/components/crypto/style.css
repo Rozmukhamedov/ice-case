@@ -1,10 +1,12 @@
-.crypto{
+.crypto {
     margin: 100px 0;
 }
 
 .crypto .crypto__box {
     padding: 20px;
     position: relative;
+    background: #FBFBFD;
+    border-radius: 28px;
 }
 
 .crypto .crypto__box img {
@@ -34,7 +36,7 @@
     color: #000000;
 }
 
-.crypto .crypto__box button {
+.crypto .crypto__box h6 {
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 600;
@@ -45,4 +47,40 @@
     color: #000000;
     margin-top: 20px;
     margin-right: 0;
+}
+
+@media (max-width: 992px) {
+    .crypto .crypto__box h3 {
+       text-align: center;
+    }
+
+    .crypto .crypto__box p {
+        text-align: center;
+    }
+
+    .crypto .crypto__box h6 {
+        text-align: center;
+    }
+
+    .crypto .crypto__box .crypto__box-image {
+        position: relative;
+        overflow: hidden;
+        height: 550px;
+        background: url("../../assets/img/cripto.png") no-repeat;
+        background-size: 150% auto;
+        background-position: -195px;
+    }
+    .crypto .crypto__box .crypto__box-image img{
+       display: none;
+    }
+}
+
+@media (max-width: 576px) {
+    .crypto .crypto__box .crypto__box-image {
+        position: relative;
+        overflow: hidden;
+        height: 400px;
+        background-size: 200% auto;
+        background-position: -195px;
+    }
 }

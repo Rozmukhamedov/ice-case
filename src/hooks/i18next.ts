@@ -1,21 +1,25 @@
-import i18n from 'i18next';
-import { initReactI18next } from 'react-i18next';
-import LanguageDetector from 'i18next-browser-languagedetector';
+import i18n from "i18next";
+import { initReactI18next } from "react-i18next";
+import LanguageDetector from "i18next-browser-languagedetector";
 
-import translationEN from '../assets/locales/en/translation.json';
-import translationRU from '../assets/locales/ru/translation.json';
-import translationARABIC from '../assets/locales/arabic/translation.json';
+import translationEN from "../assets/locales/en/translation.json";
+import translationRU from "../assets/locales/ru/translation.json";
+import translationARABIC from "../assets/locales/arabic/translation.json";
+import translationCH from "../assets/locales/ch/translation.json";
 
 const resources = {
-    en: {
-        translation: translationEN
-    },
-    ru: {
-        translation: translationRU
-    },
-    ar: {
-        translation: translationARABIC
-    }
+  en: {
+    translation: translationEN,
+  },
+  ru: {
+    translation: translationRU,
+  },
+  ar: {
+    translation: translationARABIC,
+  },
+  ch: {
+    translation: translationCH,
+  },
 };
 
 i18n
@@ -29,10 +33,10 @@ i18n
   .init({
     resources,
     debug: true,
-    fallbackLng: 'en',
+    fallbackLng: "en",
     detection: {
-        order: ["localStorage", "cookie"],
-        caches: ["localStorage", "cookie"],
+      order: ["localStorage", "cookie"],
+      caches: ["localStorage", "cookie"],
     },
     interpolation: {
       escapeValue: false, // not needed for react as it escapes by default
