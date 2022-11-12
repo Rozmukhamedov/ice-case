@@ -1,4 +1,4 @@
-import "./style.css"
+import "./style.css";
 import React from "react";
 import { t } from "i18next";
 import { Container, Grid } from "@mantine/core";
@@ -22,10 +22,7 @@ function Footer() {
           </Grid.Col>
           <Grid.Col span={6} xl={3}>
             <p>ООО «ПостЭндГет»</p>
-            <p>
-              Юр.адрес: 246000, <br />
-              г. Гомель, пр. Речицкий, 61
-            </p>
+            <p>{t("address")}</p>
           </Grid.Col>
           <Grid.Col span={6} xl={3}>
             <p>sales@icecase.pro</p>
