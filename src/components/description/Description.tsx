@@ -1,9 +1,11 @@
-import { Container, Grid } from "@mantine/core";
-import { t } from "i18next";
-import React from "react";
 import "./style.css";
+import React from "react";
+import { Container, Grid } from "@mantine/core";
+import { useTranslation } from "react-i18next";
 
 function Description() {
+  const { t } = useTranslation();
+
   return (
     <div className="description">
       <Container>
