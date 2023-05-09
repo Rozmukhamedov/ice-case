@@ -18,15 +18,15 @@ function Footer() {
             <p>
               <a href="#">{t("Privacy Policy")}</a>
             </p>
-            <p>© 2022 icecase.io</p>
+            <p>© 2022-2023 icecase.io</p>
           </Grid.Col>
           <Grid.Col span={6} xl={3}>
             <p>ООО «ПостЭндГет»</p>
             <p>{t("address")}</p>
           </Grid.Col>
           <Grid.Col span={6} xl={3}>
-            <p>sale@icecase.io</p>
-            <p>+375291579147</p>
+            <p>ngorbachevsky@gmail.com</p>
+            <p>+375296012907</p>
           </Grid.Col>
         </Grid>
       </Container>
