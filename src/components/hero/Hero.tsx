@@ -14,14 +14,13 @@ function Hero() {
             <Grid.Col order={2} orderMd={1} span={12} md={7} xl={7}>
               <div className="hero__box-flex">
                 <h3>
-                  {" "}
                   {t("cryptosafe_1")} <br /> {t("cryptosafe_2")}
                 </h3>
                 <p>
                   {t("cryptosafe_3")} <br /> {t("cryptosafe_4")} <br />{" "}
                   {t("cryptosafe_5")}
                 </p>
-                <button type="button">{t("buy")}</button>
+                {/* <button type="button">{t("buy")}</button> */}
               </div>
             </Grid.Col>
             <Grid.Col order={1} orderMd={2} span={12} md={5} xl={5}>
